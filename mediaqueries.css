@@ -1,0 +1,129 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 80vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    #portfolio {
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+    }
+
+    .about-pic {
+        margin-left: 6em;
+        margin-top: 4rem;
+        width: 220px;
+        height: 200px;
+    }
+
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+        
+    }
+    
+    }
+
+@media screen and (max-width:1200px) {
+    #desktop-navbar {
+        display: none;
+    }
+    #hamburger-navbar {
+        display: flex;
+    }
+
+    #profile, .section-container {
+        display: block;
+    }
+    .arrow {
+        display:none;
+    }
+    section, .section-container{
+        height:fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section-pic-container {
+        width: auto;
+        height: 40vw;
+        justify-content: center;
+    }
+    .card {
+        margin-top: 1rem;
+        margin-left: 13rem;
+        width: 230px;
+    }
+    .product-grid {
+        display: inline;
+    }
+    .about-containers {
+        margin-top: 0;
+
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+        
+        
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    footer {
+        font-size: 12px;
+
+    }
+    #contact, footer {
+        height: 30vh;
+    }
+    #profile {
+        height: 83vh;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+        
+    }
+    .about-containers, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 0.8rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .text-container {
+        margin-top: 3rem;
+       margin-left: 6rem;
+       font-size: 16px;
+        
+    }
+    .section-pic-container {
+        width: auto;
+        height: 66vw;
+        justify-content: center;
+    }
+    .section-text-p2 {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1.6rem;
+    }
+    .card {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        width: 230px;
+    }
+    .product-grid {
+        display: inline;
+    }
+
+}

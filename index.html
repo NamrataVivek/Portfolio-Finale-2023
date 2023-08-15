@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+   <nav id="desktop-navbar">
+    <div class="logo">NVSKI</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+   <nav id="hamburger-navbar">
+    <div class="logo">Nvski</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+   </nav>
+   <section id="profile">
+    <div class="section-pic-container">
+        <img src="./assets /profile.gif" alt="main image">
+    </div>
+    <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Namrata Vivek</h1>
+        <p class="section-text-p2">Multimedia Designer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='./#portfolio'">Portfolio</button>
+        </div>
+    </div>
+   </section>
+   <section id="about">
+    <p class="section-text-p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section-pic-container1">
+            <img src="./assets /error.404.png" alt="error-404" class="about-pic"/>
+        </div>
+    <div class="text-container">
+        <p>I'm Namrata, a multi-talented creative specializing in website design, development, illustration, photography, and aesthetic curation. My work weaves together visual appeal and functionality, bringing ideas to life across digital and artistic realms.</p>
+    </div>
+    </div>
+    <img src="./assets /arrow.png" alt="arrow-icon" class= "icon arrow" onclick="location.href='./#portfolio'"/>
+   </section>
+   <section id="portfolio">
+    <p class="section-text-p1">Browse My Recent</p>
+    <h1 class="title">Work</h1>
+    <div class="container">
+        <div class="product-grid">
+            <div class="card">
+                <a href="/web-design.html">
+                <img src="./assets /design.png" alt="Web Design" class="portfolio-image"/>
+            </a>
+                <div class="card-content"></p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="/web-deve.html">
+                <img src="./assets /development.png" alt="Design" class="portfolio-image"/>
+                </a>
+                <div class="card-content">
+                    <h3 class="card__title"></h3>
+                    <p class="card_description"></p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="/illustration-page.html">
+                <img src="./assets /illustrate.png" alt="Web Development" class="portfolio-image"/>
+                </a>
+                <div class="card-content">
+                    <h3 class="card__title"></h3>
+                    <p class="card_description"></p>
+                </div>
+            </div>
+<img src="./assets /arrow.png" alt="arrow-icon" class= "icon arrow" onclick="location.href='./#Contact'"/>
+   </section>
+   <section id="Contact">
+    <p class="section-text-p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets /mail.png" alt="mail-icon" class="contact-icon"/>
+            <p><a href="mailto:algonquinlive.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets /website.png" alt="mail-icon" class="contact-icon"/>
+            <p><a href="index.html">Website</a></p>
+        </div>
+    </div>
+    <img src="./assets /arrow.png" alt="arrow-icon" class= "icon arrow" onclick="location.href='./#footer'"/>
+    </section>
+    <footer>
+        <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Namrata Vivek. All Rights Reserved.</p>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
